@@ -13,5 +13,5 @@ CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}})
 
 if __name__ == "__main__":
     # Use the PORT environment variable provided by Render, default to 5000 if not set
-    port = int(os.environ.get("PORT", 10000))
+    port = int(os.environ.get("PORT", 4000))
     app.run(host='0.0.0.0', port=port, use_reloader=False)
