@@ -50,7 +50,7 @@ markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 matplotlib==3.9.4
 mdurl==0.1.2
-ml-dtypes==0.2.0
+ml-dtypes==0.4.0
 msgpack==1.1.0
 namex==0.0.8
 numba==0.60.0
